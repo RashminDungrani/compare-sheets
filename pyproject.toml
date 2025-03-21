@@ -1,0 +1,14 @@
+[project]
+name = "compare-sheets"
+version = "0.1.0"
+description = "A simple and efficient tool to compare two Excel files, highlight differences, and make VLOOKUP operations easy—all powered by Python and Streamlit."
+readme = "README.md"
+requires-python = ">=3.12"
+authors = [{name = "RashminDungrani", email = "rashmindungrani@gmail.com"}]
+
+dependencies = [
+    "openpyxl>=3.1.5",
+    "pyxlsb>=1.0.10",
+    "streamlit>=1.43.2",
+    "watchdog>=6.0.0",
+]
